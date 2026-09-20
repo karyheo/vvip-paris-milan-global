@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2306291f'/%3E%3Cpath d='M12 16h9l11 30 11-30h9L36 53h-8z' fill='%23c8a55a'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cinematic.css">
 </head>
 <body>
   <div class="announcement"><span>✦ Complimentary authentication with every purchase</span><a href="mailto:vvipparismilanglobal.com">vvipparismilanglobal.com</a></div>
@@ -32,9 +32,14 @@
 
   <main id="home">
     <section class="hero">
-      <img src="assets/hero.png" alt="Luxury black handbag in an emerald and gold salon">
-      <div class="hero-overlay shell"><div class="hero-copy"><p class="eyebrow">KUALA LUMPUR · AUTHENTIC LUXURY</p><h1>Rare pieces.<br><i>Remarkable stories.</i></h1><p>Curated designer bags, watches, shoes and accessories—authenticated for complete confidence.</p><div class="hero-cta"><a class="btn gold" href="#collection">SHOP THE COLLECTION</a><a class="text-link" href="#sell">SELL OR TRADE →</a></div></div></div>
-      <div class="hero-index"><span>01</span><i></i><span>03</span></div>
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/hero.png" aria-label="VVIP Paris Milan Global luxury bag showcase"><source src="assets/vvip-instagram-showcase.mp4" type="video/mp4"></video>
+      <div class="hero-noise"></div>
+      <div class="hero-overlay shell">
+        <div class="hero-copy"><p class="eyebrow"><span class="live-dot"></span>KUALA LUMPUR · AUTHENTIC LUXURY</p><h1>Icons in motion.<br><i>Luxury, curated.</i></h1><p>Discover authenticated designer bags, watches and rare pieces—selected from our latest Instagram arrivals.</p><div class="hero-cta"><a class="btn gold" href="#collection">EXPLORE NEW ARRIVALS</a><a class="text-link" href="https://www.instagram.com/vvip_paris_milan_global/" target="_blank" rel="noreferrer">WATCH ON INSTAGRAM ↗</a></div></div>
+        <div class="hero-showcase" aria-hidden="true"><div class="float-card card-one"><img src="assets/product-1.jpg" alt=""><span>CHANEL</span><b>Private Collection</b></div><div class="float-card card-two"><img src="assets/product-5.jpg" alt=""><span>LOUIS VUITTON</span><b>New Arrival</b></div><div class="orbit-ring"></div></div>
+      </div>
+      <div class="hero-index"><span>REELS</span><i></i><span>VVIP</span></div>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-label="Turn showcase sound on">SOUND OFF</button>
     </section>
 
     <section class="trust-strip"><div class="shell">
